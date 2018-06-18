@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "next-auth@1.8.5",
+      "/Volumes/Data/Workspace/ReactJS/new-tstmkrs/tstmkrs_web"
+    ]
+  ],
+  "_from": "next-auth@1.8.5",
+  "_id": "next-auth@1.8.5",
+  "_inBundle": false,
+  "_integrity": "sha512-EzqepV06ZgaIoRjSVbqDZoy0DLAAPLWUVDRQzI9VRZIIbgBhdmE6Ku0ykFwZQuTbjPUpRXMQQrj0nAkGTTf7gA==",
+  "_location": "/next-auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "next-auth@1.8.5",
+    "name": "next-auth",
+    "escapedName": "next-auth",
+    "rawSpec": "1.8.5",
+    "saveSpec": null,
+    "fetchSpec": "1.8.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/next-auth/-/next-auth-1.8.5.tgz",
+  "_spec": "1.8.5",
+  "_where": "/Volumes/Data/Workspace/ReactJS/new-tstmkrs/tstmkrs_web",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/iaincollins/next-auth/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "isomorphic-fetch": "^2.2.1",
+    "lusca": "^1.6.0",
+    "passport": "^0.4.0",
+    "uuid": "^3.2.1"
+  },
+  "description": "An authentication library for Next.js",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  },
+  "homepage": "https://github.com/iaincollins/next-auth#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "next-auth",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaincollins/next-auth.git"
+  },
+  "scripts": {
+    "build": "webpack -d",
+    "prepare": "webpack -d",
+    "start": "webpack -d --watch"
+  },
+  "version": "1.8.5"
+}
