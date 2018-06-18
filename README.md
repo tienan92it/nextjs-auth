@@ -2,21 +2,7 @@
 
 ## About NextAuth
 
-NextAuth is an authentication library for Next.js projects.
-
-The NextAuth library uses Express and Passport, the most commonly used authentication library for Node.js, to provide support for signing in with email and with services like Facebook, Google and Twitter.
-
-NextAuth adds Cross Site Request Forgery (CSRF) tokens and HTTP Only cookies, supports universal rendering and does not require client side JavaScript.
-
-It adds session support without using client side accessible session tokens, providing protection against Cross Site Scripting (XSS) and session hijacking, while leveraging localStorage where available to cache non-critical session state for optimal performance in Single Page Apps.
-
-The NextAuth comes with a client library, designed to work with React pages powered by Next.js to easily add universal session support to sites.
-
-It contains an [example site](https://github.com/iaincollins/next-auth/tree/master/example) that shows how to use it in a simple project. It's also used in the [nextjs-starter.now.sh](https://nextjs-starter.now.sh) project, which provides a more complete example with a live demo.
-
-Note: As of version 1.5 NextAuth is also compatible non-Next.js React projects, just pass `null` instead of a nextApp instance when calling `nextAuth()`.
-
-You will need to handle setting up routes before and after initialising NextAuth if you are not using Next.js. NextAuth lets you pass an instance of express as 'expressApp' option (and returns it in the response).
+NextJsAuth is clone from [NextAuth](https://github.com/iaincollins/next-auth)
 
 ## Example Client Usage
 
